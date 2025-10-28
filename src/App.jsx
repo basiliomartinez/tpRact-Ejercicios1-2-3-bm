@@ -1,5 +1,6 @@
 import Helloworld from "./components/ej1/Helloworld";
 import Hellofriend from "./components/ej2/Hellofriend";
+import Hellostate from "./components/ej3/Hellostate";
 
 const App = () => {
     return (
@@ -26,6 +27,14 @@ const App = () => {
                     </h2>
 
                     <Hellofriend mensaje="Hello my friend!" />
+                </section>
+
+                 {/* EJERCICIO 3 */}
+                <section className="my-4">
+                    <h2 className="h4 alert alert-warning mb-3">
+                        Ejercicio 3: "Hello my friend (from changed state)!"
+                    </h2>
+                    <Hellostate />
                 </section>
 
             </main>
